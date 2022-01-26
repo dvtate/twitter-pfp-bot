@@ -51,7 +51,7 @@ async function getClient() {
         appSecret: process.env.TWIT_API_SECRET,
     });
 
-    const link = await client.generateAuthLink('http://localhost:8081/callback', /*{ linkMode: 'authorize' } */);
+    const link = await client.generateAuthLink('http://xtie.net:8081/callback', /*{ linkMode: 'authorize' } */);
     oauth_token = link.oauth_token;
     oauth_token_secret = link.oauth_token_secret;
     debug('please grant access: ', link.url);
