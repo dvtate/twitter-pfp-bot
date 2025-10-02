@@ -19,7 +19,7 @@
     "axios": "^0.25.0",
     "debug": "^4.3.3",
     "dotenv": "^14.2.0",
-    "express": "^4.17.2",
+    "express": "^4.21.2",
     "twitter-api-v2": "^1.9.1"
   },
   "devDependencies": {
